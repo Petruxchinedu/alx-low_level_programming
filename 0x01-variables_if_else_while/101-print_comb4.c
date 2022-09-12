@@ -6,32 +6,32 @@
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int m_d;
-	int l_d;
-
-	while (c <= 999)
+	int x;
+	int y;
+	int z
+	
+	for (x = 0; x < 10; x++)
 	{
-		f_d = (c / 100 + '0');
-		m_d = (c / 10 % 10 + '0');
-		l_d = (c % 10 + '0');
-
-		if ((f_d < m_d) && (m_d < l_d))
+		for (y = 0; y < 10; y++)
 		{
-			putchar(f_d);
-			putchar(m_d);
-			putchar(l_d);
-
-			if (c != 789)
+			for (z = 0; z < 10; z++)
 			{
-				putchar(',');
-				putchar(' ');
+				if (x < y && y < z)
+				{
+					putchar(x % 10 + '0');
+					putchar(y % 10 + '0');
+					putchar(z % 10 + '0');
+					if (x < 7)
+					{
+						putchar(44);
+						putchar(32);
+					}
+
+				}
 			}
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }
 
