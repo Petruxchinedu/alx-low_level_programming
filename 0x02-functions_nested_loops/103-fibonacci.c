@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - finds and prints the sum of the even-valued terms 
- * followed by a new line.
- * Retuern: Always 0 (Success)
+ * main - finds and prints the sum of the even-valued terms
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -23,5 +23,6 @@ int main(void)
 		k = next;
 	}
 	printf("%lu\n", sum);
-	return (0);
+
+return (0);
 }
