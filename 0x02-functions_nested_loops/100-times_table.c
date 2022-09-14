@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_tables - prints times table
+ * print_times_table - prints times table
  * @n: the times table to use
  *
  * Return: void
@@ -40,10 +40,12 @@ while (a <= n)
 		}
 		if (b < n)
 		{
-		_putchar(',');
-		_putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
 	_putchar('\n');
 	a++;
+
+}
 }
