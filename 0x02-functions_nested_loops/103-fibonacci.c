@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - finds and prints the sum of the even-valued terms
+ * main - find and prints the sum of the even-valued terms
  * followed by a new line
  *
  * Retuern: Always 0 (Success)
