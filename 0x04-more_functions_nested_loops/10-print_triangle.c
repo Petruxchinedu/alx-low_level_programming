@@ -4,12 +4,13 @@
  * print_triangle -  prints a triangle, followed by new line.
  * @size: is the size of the triangle
  */
+
 void print_triangle(int size)
 {
 	int i;
 	int j;
 	int k;
-	
+
 	if (size <= 0)
 	{
 		_putchar('\n');
@@ -18,7 +19,7 @@ void print_triangle(int size)
 	{
 		for (i = 1; i <= size; i++)
 		{
-			for (i = size-i; j > 0; j--)
+			for (i = size - i; j > 0; j--)
 			{
 				_putchar(' ');
 			}
