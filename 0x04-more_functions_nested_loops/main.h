@@ -20,5 +20,5 @@ void print_square(int size);
 void print_traingle(int size);
 void print_numbe(int n);
 
-4endif /* MAIN_H */
+#endif /* MAIN_H */
 
